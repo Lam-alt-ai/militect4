@@ -1,13 +1,16 @@
 {
-  "functions": {
-    "app.py": {
-      "runtime": "python3.9"
-    }
-  },
   "routes": [
     {
-      "src": "/(.*)",
-      "dest": "/app.py"
+      "src": "/configurator",
+      "dest": "/configurator.html"
+    },
+    {
+      "src": "/demo",
+      "dest": "/demo.html"
+    },
+    {
+      "src": "/",
+      "dest": "/index.html"
     }
   ]
 }
